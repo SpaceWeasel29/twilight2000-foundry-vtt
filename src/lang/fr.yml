@@ -4,14 +4,14 @@ T2K4E.SheetClassUnit: Fiche d'unité
 T2K4E.SheetClassParty: Fiche de groupe
 T2K4E.Attribute: Attribut
 T2K4E.Attributes: Attributs
-T2K4E.AttributeNames.str: Vigueur
+T2K4E.AttributeNames.str: Force
 T2K4E.AttributeNames.agl: Agilité
 T2K4E.AttributeNames.int: Intellect
 T2K4E.AttributeNames.emp: Empathie
 T2K4E.Skill: Compétence
 T2K4E.Skills: Compétences
 T2K4E.SkillNames.none: –
-T2K4E.SkillNames.heavyWeapons: Artillerie lourde
+T2K4E.SkillNames.heavyWeapons: Armes Lourdes
 T2K4E.SkillNames.closeCombat: Combat rapproché
 T2K4E.SkillNames.stamina: Endurance
 T2K4E.SkillNames.driving: Conduite
@@ -30,7 +30,7 @@ T2K4E.ActionNames.meleeAttack: Attaque de mêlée
 T2K4E.ActionNames.grapple: Attraper
 T2K4E.ActionNames.breakFree: Se libérer
 T2K4E.ActionNames.shootFirearm: Tirer avec une arme à feu
-T2K4E.ActionNames.clearJam: Nettoyer le bourrage
+T2K4E.ActionNames.clearJam: Résoudre l'incident de tir
 T2K4E.ActionNames.aimSniper: Viser (tireur d'élite)
 T2K4E.ActionNames.shootBow: Tirer à l'arc
 T2K4E.ActionNames.throwWeapon: Lancer une arme
@@ -38,7 +38,7 @@ T2K4E.ActionNames.aimMortar: Viser avec le mortier ou l'obusier
 T2K4E.ActionNames.shootHeavyWeapon: Tirer avec une arme lourde
 T2K4E.ActionNames.firstAid: Premiers secours
 T2K4E.ActionNames.rally: Rallier
-T2K4E.ActionNames.directFire: Tir indirect direct
+T2K4E.ActionNames.directFire: Tir direct
 T2K4E.ActionNames.seekCover: Se mettre à couvert
 T2K4E.ActionNames.run: Courir
 T2K4E.ActionNames.crawl: Ramper
@@ -47,7 +47,7 @@ T2K4E.ActionNames.disarm: Désarmer
 T2K4E.ActionNames.retreat: Battre en retraite
 T2K4E.ActionNames.aim: Viser
 T2K4E.ActionNames.prepareBow: Préparer l'arc
-T2K4E.ActionNames.overwatch: Assumer la position de surveillance
+T2K4E.ActionNames.overwatch: Surveillance
 T2K4E.ActionNames.reload: Recharger
 T2K4E.ActionNames.drive: Conduire
 T2K4E.Constants: Constantes
@@ -82,7 +82,7 @@ T2K4E.ActionTypes.fast: Rapide
 T2K4E.ActionTypes.slow: Lente
 T2K4E.Ranges.close: En combat rapproché
 T2K4E.Ranges.short: Courte
-T2K4E.Ranges.medium: Medium
+T2K4E.Ranges.medium: Moyenne
 T2K4E.Ranges.long: Longue
 T2K4E.Ranges.extreme: Extrême
 T2K4E.ItemTypes.ammunition: Munition
@@ -95,9 +95,9 @@ T2K4E.ItemTypes.weapon: Arme
 T2K4E.ItemPropNames.twoHanded: 'Deux mains'
 T2K4E.ItemPropNames.mounted: Monté
 T2K4E.ItemPropNames.disposable: Jetable
-T2K4E.ItemPropNames.ammoBelt: Cartouchière
+T2K4E.ItemPropNames.ammoBelt: Bande de munitions
 T2K4E.ItemPropNames.magazine: Chargeur
-T2K4E.ItemPropNames.armored: Protégé
+T2K4E.ItemPropNames.armored: Blindé
 T2K4E.ItemPropNames.bipod: Bipied
 T2K4E.ItemPropNames.tripod: Trépied
 T2K4E.ItemPropNames.scope: Lunette
@@ -116,7 +116,7 @@ T2K4E.ActorSheet.NoteTab: Notes
 T2K4E.ActorSheet.Nationality: Nationalité
 T2K4E.ActorSheet.Branch: Branche
 T2K4E.ActorSheet.MilitaryRank: Rang
-T2K4E.ActorSheet.HitCapacity: Capacité de vie
+T2K4E.ActorSheet.HitCapacity: Capacité de dégats
 T2K4E.ActorSheet.StressCapacity: Capacité de stress
 T2K4E.ActorSheet.CapacityModifier: 'Modificateur :'
 T2K4E.ActorSheet.Experience: Expérience
@@ -141,7 +141,7 @@ T2K4E.ActorSheet.Current: Actuel
 T2K4E.ActorSheet.Max: Max
 T2K4E.ActorSheet.CuF: Sang-froid
 T2K4E.ActorSheet.UnitMorale: Moral de l'unité
-T2K4E.ActorSheet.NoArmor: Ce personnage n'a pas d'armure équipée.
+T2K4E.ActorSheet.NoArmor: Ce personnage n'a pas de protection équipée.
 T2K4E.ActorSheet.Conditions: Conditions
 T2K4E.ActorSheet.CriticalInjuries: Blessures critiques
 T2K4E.ActorSheet.AddInjury: Ajouter une nouvelle blessure
@@ -160,7 +160,7 @@ T2K4E.ActorSheet.Cover: Protections
 T2K4E.ActorSheet.Add: Ajouter
 T2K4E.ActorSheet.AddArmor: Ajouter une nouvelle armure
 T2K4E.ActorSheet.AddGear: Ajouter un nouvel équipement
-T2K4E.ActorSheet.AddAmmo: Ajouter une nouvelle munition
+T2K4E.ActorSheet.AddAmmo: Ajouter des munitions
 T2K4E.ActorSheet.Encumbrance: Encombrement
 T2K4E.ActorSheet.CombatGearEncumbrance: Équipement de combat (encombrement)
 T2K4E.ActorSheet.BackpackEncumbrance: Sac à dos (encombrement)
@@ -199,10 +199,10 @@ T2K4E.VehicleSheet.Nuclear: Nucléaire
 T2K4E.VehicleSheet.CrewQty: 'Équipage :'
 T2K4E.VehicleSheet.PassengerQty: 'Passagers :'
 T2K4E.VehicleSheet.EmptyCrew: Glissez-déposez un acteur pour l'ajouter à l'équipage.
-T2K4E.VehicleSheet.Armor: Armure
+T2K4E.VehicleSheet.Armor: Blindage
 T2K4E.VehicleSheet.FrontArmor: Avant
 T2K4E.VehicleSheet.SideLeftArmor: Gauche
-T2K4E.VehicleSheet.SideRightArmor: Droite
+T2K4E.VehicleSheet.SideRightArmor: Droit
 T2K4E.VehicleSheet.RearArmor: Arrière
 T2K4E.VehicleSheet.Damage: Dégats
 T2K4E.VehicleSheet.MountedWeapons1: Armes principales
@@ -216,7 +216,7 @@ T2K4E.VehicleSheet.Unmount: Démonter l'arme
 T2K4E.VehicleSheet.MoveMount: Basculer le montage de l'arme
 T2K4E.VehicleSheet.Price: Prix
 T2K4E.VehicleSheet.CrewPositions.Driver: CONDUCTEUR
-T2K4E.VehicleSheet.CrewPositions.Gunner: CANONNIER
+T2K4E.VehicleSheet.CrewPositions.Gunner: TIREUR
 T2K4E.VehicleSheet.CrewPositions.Commander: COMMANDANT
 T2K4E.VehicleSheet.CrewPositions.Passenger: PASSAGER
 T2K4E.VehicleSheet.ExposedPassenger: Exposé
@@ -233,7 +233,7 @@ T2K4E.VehicleSheet.Components.trackWheel: Chenilles / Roues
 T2K4E.VehicleSheet.Components.fcs: Système de conduite de tir
 T2K4E.VehicleSheet.Components.antenna: Antenne
 T2K4E.VehicleSheet.HasTrailer: Remorque
-T2K4E.VehicleSheet.HasSmokeDischarger: Déchargeur de fumée
+T2K4E.VehicleSheet.HasSmokeDischarger: Lance fumigène
 T2K4E.UnitSheet.Name: Nom complet
 T2K4E.UnitSheet.Info: Informations additionnelles
 T2K4E.UnitSheet.Faction: Faction
@@ -286,7 +286,7 @@ T2K4E.ItemSheet.WeaponMagazine: Chargeur
 T2K4E.ItemSheet.Quantity: Quantité
 T2K4E.ItemSheet.ItemType: Type
 T2K4E.ItemSheet.Ammo: Munitions
-T2K4E.ItemSheet.AmmoType: Identificateur de munitions
+T2K4E.ItemSheet.AmmoType: Type de munitions
 T2K4E.ItemSheet.OverrideOption: Remplacer les fonctionnalités de l'arme
 T2K4E.ItemSheet.Reliability: Fiab
 T2K4E.ItemSheet.RoF: CdT
@@ -294,8 +294,8 @@ T2K4E.ItemSheet.Damage: Dégats
 T2K4E.ItemSheet.Crit: Crit
 T2K4E.ItemSheet.Blast: Souffle
 T2K4E.ItemSheet.Range: Portée
-T2K4E.ItemSheet.Mag: Mag
-T2K4E.ItemSheet.Armor: Armure
+T2K4E.ItemSheet.Mag: Chargeur
+T2K4E.ItemSheet.Armor: Protection
 T2K4E.ItemSheet.Weight: Poids
 T2K4E.ItemSheet.Price: Prix
 T2K4E.ItemSheet.ArmorLocation: Partie protégée
@@ -356,13 +356,13 @@ T2K4E.Dialog.Roll.Locate: Ajouter un dé de toucher ?
 T2K4E.Dialog.Roll.MaxPush: Poussées max
 T2K4E.Dialog.Roll.RollMode: Mode de lancer
 T2K4E.Dialog.CuF.CoolnessUnderFire: Sang-froid (SF)
-T2K4E.Dialog.CuF.UnitMorale: Ajouter le moral de la compagnie ?
+T2K4E.Dialog.CuF.UnitMorale: Agmenter le moral de l'unité
 T2K4E.Dialog.Actor.ChooseActor: Choisissez un Acteur
 T2K4E.Dialog.Damage.ChooseDamage: Quantité de dégats
 T2K4E.Dialog.Damage.Description: Choisissez la quantité de dégâts à infliger à <b>{cible}</b>.
 T2K4E.Dialog.Damage.DamageQuantity: Quantité de base
 T2K4E.Dialog.Damage.ExtraHits: Touchés supplémentaires
-T2K4E.Dialog.Damage.BarrierArmors: Niveaux d'armure de l'obstacle
+T2K4E.Dialog.Damage.BarrierArmors: Résitance de l'obstacle
 T2K4E.Dialog.Damage.BarrierArmorsHint: Les obstacles multiples sont séparés par des virgules.
 T2K4E.Macro.MultipleItems: >-
   L'acteur {actor} que vous contrôlez a plus d'un Item avec le nom {item}. Le
@@ -397,7 +397,7 @@ FLPS.UI.ERROR.OPEN_SHEET: >-
 FLPS.TRAVEL_ROLL.FORCED_MARCH: Marche forcée
 FLPS.TRAVEL_ROLL.MARCH_IN_DARKNESS: Marcher de nuit
 FLPS.TRAVEL_ROLL.DRIVE: Conduire
-FLPS.TRAVEL_ROLL.KEEP_WATCH: Faire le guet
+FLPS.TRAVEL_ROLL.KEEP_WATCH: Monter la garde
 FLPS.TRAVEL_ROLL.RECOVER: Récupérer
 FLPS.TRAVEL_ROLL.FIND_SCRAP: Fouiller
 FLPS.TRAVEL_ROLL.FIND_FOOD: Chercher de la nourriture
